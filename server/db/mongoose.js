@@ -9,6 +9,3 @@ mongoose.connect(process.env.MONGODBJX_URI, {useNewUrlParser: true, useUnifiedTo
 
 
 module.exports = {mongoose};
-
-
-//MONGODBJX_URI
