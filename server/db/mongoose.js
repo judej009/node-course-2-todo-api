@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+mongoose.set('useCreateIndex', true)
 require('dotenv').config({ path: '.env' });
 
 //var mongoURI = 'mongodb://localhost:27017/TodoApp';
